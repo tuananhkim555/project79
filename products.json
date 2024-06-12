@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":2,
+        "name": "MACBOOK PRO 2024",
+        "price": "220",
+        "image": "img/Shop/shoe arrival instagram post.png"
+    },
+    {
+        "id":3,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":4,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":5,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":6,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":7,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    },
+    {
+        "id":8,
+        "name": "IPHONE 15 PRO MAX",
+        "price": "120",
+        "image": "img/Shop/iphone15.png"
+    }
+]

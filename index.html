@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO TUAN ANH</title>
+        <link rel="website icon" type="png" href="img/logo/science.png">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <!-- Box Icon -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+    <!--? Main Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/darktheme.css">
+
+</head>
+<body id="background">
+    <!--* slider header -->
+     <main>
+        <header id="nav"> 
+            <div class="logo">
+                <img src="img/Creative Color Brushstroke Lettering Logo (2).png">
+            </div>
+            <!--* Change Theme -->
+           <label class="changeTheme">
+            <i class="fa-solid fa-sun"></i>
+            <input type="checkbox" name="changeTheme">
+             </label>
+        <!--* Change Theme End  -->
+        
+            <nav class="navbar">
+                <input type="checkbox" name="openNav" id="openNav">
+                <label for="openNav" class="openNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="menu">
+                    <li><i class="fa-solid fa-house"></i>
+                    <a href="#">HOME</a></li>
+                    <li><i class="fa-solid fa-code"></i>
+                        SKILLS
+                        <label>
+                            <input type="checkbox">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                        <ul>
+                            <li>Developer
+                                <label>
+                                    <input type="checkbox">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </label>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>React</li>
+                                    <li>Fluter</li>
+                                </ul>
+                            </li>
+                            <li>Designer</li>
+                            <li>Editor</li>
+                            <li>Producer</li>
+                            <li>Dancer</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="shop.html">SHOP</a></li>
+                    <li>
+                        <i class="fa-solid fa-headphones"></i>
+                        AI
+                        <label>
+                            <input type="checkbox">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                        <ul>
+                            <li>
+                                <label>
+                                    <input type="checkbox">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </label>
+                                <a href="ai-photo.html">AI IMAGE</a>
+                            </li>
+                            <li>AI VIDEO</li>
+                            <li>AI VOCAL</li>
+                            <li>CHAT GPT</li>
+                            <li>AI CODE</li>
+                        </ul>
+                    </li>
+                    </li>
+                </ul>    
+                <ul class="otherOption">
+                    <li>
+                        <i class="fa-solid fa-right-to-bracket"></i><a href="login.html">Sign In</a></li>
+                    <li>
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <a href="signUp.html">Sign Up</a>
+                        </li>
+                </ul>
+              </nav>
+            </header>
+            <!--* Header End -->
+            
+          <!--* Slider Header -->
+        <section class="slider">
+            <div class="list">
+                <div class="item active">
+                    <div class="image"></div>
+                    <div class="content">
+                        <h2>TUAN ANH PRODUCER VOCAL DANCER</h2>
+                        <p >Hòa âm phối khí R&B - EDM - MIXING -MASTERING</p>
+                       <p>Sử dụng Ableton Live,- FL Studio - Logic Pro X</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="content">
+                        <h2>TUAN ANH DESIGNER MEDIA DEVELOPER</h2>
+                        <p>
+                            <span class="multiple-text"> </span>
+                            <br>
+                            Illustrator - Canva - Photoshop - Capcut - Adobe Premier - Light Room  
+                    
+                        </p>
+                        <p>Edit Video & Design & Photographer</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="content">
+                        <h2>TUAN ANH DEVELOPER</h2>
+                        <p>Code Web Mobile Application.</p>
+                        <p>Html Css Javascript React Flutter.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                      </svg>
+                      
+                </button>
+                <button id="next">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                      </svg>
+                      
+                </button>
+            </div>
+        </section>
+     </main>
+     <!--* Slider Header End -->
+
+           <!--* Robot -->
+           <section class="banner">
+            <div class="robot">
+              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/robot.png" alt="robot">
+            </div>
+            <div class="circuit-art">
+              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/GoodArtwork.svg" alt="GoodArtwork">
+            </div>
+            <div class="machine-art">
+              <div class="machine-art-container">
+                <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/machin-rings.svg" alt="GoodArtwork">
+                <div class="machine-lights-container">
+                  <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/machine-lights.svg" alt="GoodArtwork">
+                </div>
+              </div>
+            </div>
+            <div class="circuit-art red">
+              <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/GoodArtwork-red.svg" alt="GoodArtwork">
+            </div>
+            <div class="banner-content">
+              <div class="containerRB">
+                <div class="banner-title">
+                  <h1>artificial INTElligence</h1>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="blue-content">
+                      <p class="p-lg text-pipe blue-text">Power of AI</p>
+                      <p>There’s a lot of speculation and fear-mongering related to the impact of AI.</p>
+                      <a href="#" id="play">
+                        <p class="on">EFFECTS ON</p>
+                        <span>
+                          <span class="arrow"></span>
+                          <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/button-circle.svg" alt="button-circle">
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="red-content">
+                      <div class="polygone-container">
+                        <div class="polygone">
+                          <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/ezgif.com-gif-maker (1).jpg" alt="artificial">
+                        </div>
+                        <div class="polygone-content">
+                          <p class="red-text"><span>Artificial Intelligence</span></p>
+                          <p>Taking over Humans.</p>
+                        </div>
+                      </div>
+                      <div class="polygone-container">
+                        <div class="polygone">
+                          <img src="https://www.yudiz.com/codepen/artificial-intelligence/images/ezgif.com-gif-maker.jpg" alt="artificial">
+                        </div>
+                        <div class="polygone-content">
+                          <p class="red-text"><span>Fast Revolution</span></p>
+                          <p>of Ai can turn the World.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!--* Robot End-->
+
+
+        <!--* AI -->
+        <section class="ai contentOneActive">
+            <div id="dCanvas">
+
+            </div>
+            <div class="contentOne">
+                <h2 class="light">REACT AI</h2>
+                <div class="des">
+                    Tuan Anh, a React developer, integrates advanced AI technologies into applications, from machine learning to natural language processing, delivering intelligent and optimized user experiences.
+                </div>
+            </div>
+            <div class="contentTwo">
+                <ul>
+                    <li>
+                        <span>LOGIC</span>
+                        <span>AI</span>
+                    </li>
+                    <li>
+                        <span>ROBOT</span>
+                        <span>V100</span>
+                    </li>
+                    <li>
+                        <span>MAGIC</span>
+                        <span>0 - 235M/1S</span>
+                    </li>
+                    <li>
+                        <span>COLLECT DATA</span>
+                        <span>CREATE</span>
+                    </li>
+                </ul>
+            </div>
+            <button id="showmore">More</button>
+            <div class="ai-select">
+                <button id="show-ai">
+                    <a href="ai-photo.html">AI PHOTO</a></button>
+                <button id="show-ai">
+                    <a href="#">AI VIDEO</a>
+                </button>
+                <button id="show-ai">
+                    <a href="#">AI VOCAL</a>
+                </button>
+                <button id="show-ai">
+                    <a href="#">CHAT GPT</a>
+                </button>
+            </div>
+        </section>
+        <!--* AI -->
+        
+         <!--* Show-skills -->
+         <section id="show-skills">
+        <div class="content-show">
+            <h2>SKILLS</h2>
+            <p>I excel in front-end and back-end development using HTML, CSS, JavaScript, React, MongoDB, and Flutter, creating dynamic web applications, scalable backends, and high-performance mobile apps.</p>
+            <a class="skillsBtn" href="#" style="--color: #ff1867"><span>AI</span><i></i></a>
+        </div>
+        <div class="contrast">
+            <div class="cubes">
+              <div class="cube">
+                <div class="face front">
+                    <img src="img/head2.jpeg" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+                <div class="face back">
+                    <img src="img/head3.jpeg" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+                <div class="face left">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/abaa23bd-8c93-4219-a3ef-0d0cb6f12566" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+                <div class="face right">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/bd9bcc80-a9ab-4d54-a460-ffdb77f22a72" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+                <div class="face top">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/18bc2436-740b-44c4-9dd8-fd7be51a07ad" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+                <div class="face bottom">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4c5c1727-8b32-48c1-91de-b0496ccf10f6" style="width: 200px;height: 200px; background-size: cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--* Show Skills End -->
+
+        <!--* About -->
+        <section class="about" id="about">
+            <div class="about__img">
+                <img src="img/anh dai dien2222.png" alt="">
+            </div>
+            <div class="about__content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>I am <span class="multiple-text2"> </span></h3>
+                <p>My name is Dinh Tuan Anh, and I am from Vietnam. I possess a strong set of programming skills including HTML, CSS, JavaScript, Tailwind, React, MongoDB, and Docker. With experience in both front-end and back-end development, I am adept at creating dynamic, responsive web applications. My expertise in modern development tools and frameworks enables me to build efficient, scalable solutions. I am passionate about leveraging technology to solve problems and enhance user experiences.</p>
+                <div class="icon_about">
+                    <img src="img/logo/html.png" alt="">
+                    <img src="img/logo/social.png" alt="">
+                    <img src="img/logo/js.png" alt="">
+                    <img src="img/logo/science.png" alt="">
+                    <img src="img/logo/tailwind2.png" alt="">
+                    <img src="img/logo/mongodb-icon-2048x2048-cezvpn3f.png" alt="">
+                    <img src="img/logo/letter-f.png" alt="">
+                     <img src="img/logo/Docker.png" alt="">
+                    <img src="img/logo/web-code.png" alt="">
+                </div>
+                <div class="galaxy-button">
+                    <button>
+                      <span class="spark"></span>
+                      <span class="backdrop"></span>
+                      <span class="galaxy__container">
+                        <span class="star star--static"></span>
+                        <span class="star star--static"></span>
+                        <span class="star star--static"></span>
+                        <span class="star star--static"></span>
+                      </span>
+                      <span class="galaxy">
+                        <span class="galaxy__ring">
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                          <span class="star"></span>
+                        </span>
+                      </span>
+                      <span class="text">Explore</span>
+                    </button>
+                    <div class="bodydrop"></div>
+                  </div>
+            
+                
+            </div>
+        </section>
+        <!--* About End -->
+
+        <!--* Services -->
+        <section class="services">
+            <div class="boxFor" style="--clr:#89ec5b;">
+                <div class="contentFor">
+                    <div class="iconFor"><ion-icon name="brush"></ion-icon></div>
+                    <div class="textFor">
+                        <h3 class="titleService">Designing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, qui.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxFor" style="--clr:#eb5ae5;">
+                <div class="contentFor">
+                    <div class="iconFor"><ion-icon name="code-slash"></ion-icon></div>
+                    <div class="textFor">
+                        <h3 class="titleService">Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, qui.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxFor" style="--clr:#5b98eb;">
+                <div class="contentFor">
+                    <div class="iconFor"><ion-icon name="search"></ion-icon></div>
+                    <div class="textFor">
+                        <h3 class="titleService">SEO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, qui.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--* Services End -->
+
+        
+        <!--* Education -->
+        <section class="baseContainer">
+        <!--main boundary-->
+        <div class="base" data-depth="0.00">
+
+            <!--Top right heading inside base div-->
+            <div class="topRightHeading" data-depth="1.00">
+                DEV TUAN ANH
+            </div>
+
+            <!--list-->
+            <ul class="education" data-depth="1.00">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT</li>
+            </ul>
+
+            <!--circular progress bar-1-->
+            <div class="prog-1">
+                <div class="c100 p100 big">
+                    <span>100%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <!--circular progress bar-1-->
+            <div class="prog-2">
+                <div class="c100 p90 big">
+                    <span>90%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+            <!--circular progress bar-1-->
+            <div class="prog-3">
+                <div class="c100 p70 big">
+                    <span>70%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--top margin line-->
+         <hr id="line" data-depth="1.00">        
+         </section>
+        <!--* Education End-->
+
+        <!--* MP3  -->
+        <section id="mp3Music">
+            <div class="album-cover">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d3ca28bf-e1b7-467e-a00b-c7785be8e397" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=aatr_2MstrI&ab_channel=CleanBandit"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1afe4c6a-0287-43f0-9076-92f8be49d9dc" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=qEnfeG8uBRY&ab_channel=AliciaKeys-Topic"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/abaa23bd-8c93-4219-a3ef-0d0cb6f12566" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=h5oHhGlWKf0&ab_channel=MuzikPlay"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/bd9bcc80-a9ab-4d54-a460-ffdb77f22a72" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=a5uQMwRMHcs&ab_channel=DaftPunkVEVO"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/18bc2436-740b-44c4-9dd8-fd7be51a07ad" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=H5v3kku4y6Q&ab_channel=HarryStylesVEVO"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4c5c1727-8b32-48c1-91de-b0496ccf10f6" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=9HDEHj2yzew&ab_channel=DuaLipa"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/23e440e5-a0fa-4a85-8175-bcc485a20ee6" />
+                      <div class="overlay">
+                        <a
+                          href="https://www.youtube.com/watch?v=tCXGJQYZ9JA&ab_channel=TaylorSwiftVEVO"
+                          target="_blank"
+                          ><ion-icon name="logo-youtube"></ion-icon
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="music-player">
+                <h1>Title</h1>
+                <p>Song Name</p>
+          
+                <audio id="song">
+                  <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+                </audio>
+          
+                <input type="range" value="0" id="progressMp3" />
+          
+                <div class="controls">
+                  <button class="backward">
+                    <i class="fa-solid fa-backward"></i>
+                  </button>
+                  <button class="play-pause-btn">
+                    <i class="fa-solid fa-play" id="controlIcon"></i>
+                  </button>
+                  <button class="forward">
+                    <i class="fa-solid fa-forward"></i>
+                  </button>
+                </div>
+              </div>
+        </section>
+        <!--* MP3  End-->
+        <!--* Slider Review -->
+        <section class="slider-react">
+                <div class="slider_review">
+                    <div id="slider-image">
+                        <div class="item_review" style="background-image: url(img/san-xuat-am-nhac-la-nghe-gi.jpg);">
+                        <div class="content_review">
+                            <div class="name_review">PRODUCER HÒA ÂM PHỐI KHÍ</div>
+                            <div class="des_review">Sử dụng thành thạo các phần mềm thu âm, sử dụng nhạc cụ, Logic Pro , Ableton Live</div>
+                            <button onclick="bangGia()">Xem Project</button>
+                            <button class="btnBooking">Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                   
+                    <div class="item_review" style="background-image: url(/img/design.jpeg);">
+                        <div class="content_review">
+                            <div class="name_review">DESIGN</div>
+                            <div class="des_review">Sử dụng thành thạo AI, CANVA</div>
+                            <button onclick="bangGia()">Review Project</button>
+                            <button class="btnBooking" >Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                    
+                    <div class="item_review" style="background-image: url(/img/imgslider/software-development-costs-1128x635.jpg);">
+                        <div class="content_review">
+                            <div class="name_review">DEVELOPER & MARKETING</div>
+                            <div class="des_review">Code Website, Code App Mobile, Application, Marketing Chạy QC Tool Facebook</div>
+                            <button onclick="bangGia()">Reivew Project</button>
+                            <button class="btnBooking">Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                    
+                    <div class="item_review" style="background-image: url(/img/imgslider/onsen1_1.jpeg);">
+                        <div class="content_review">
+                            <div class="name_review">PHOTOGRAPHER</div>
+                            <div class="des_review">Chụp ảnh nghệ thuật và chỉnh sửa ảnh bằng LightRoom</div>
+                            <button onclick="bangGia()">Xem Project</button>
+                            <button class="btnBooking">Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                   
+                    <div class="item_review" style="background-image: url(/img/promoting-as-music-producer.jpg);">
+                        <div class="content_review">
+                            <div class="name_review">EDITOR</div>
+                            <div class="des_review">Chỉnh sửa video bằng phần mềm Capcut, Adobe Premier</div>
+                            <button onclick="bangGia()">Xem Project</button>
+                            <button class="btnBooking">Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                    
+                    <div class="item_review" style="background-image: url(/img/dancer.jpeg);">
+                        <div class="content_review">
+                            <div class="name_review">DANCER & VOCAL</div>
+                            <div class="des_review">Có kinh nghiệm biên đạo nhảy và vocal</div>
+                            <button onclick="bangGia()">Xem Video</button>
+                            <button class="btnBooking">Gửi Thông Tin</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="button_review">
+                        <button id="prev_review">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button id="next_review">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+        </section>            
+        <!--* Slider review End -->
+        <!--* Modal -->
+            <div id="registerModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form id="registerForm">
+                        <label for="name">Tên:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="phone">Số điện thoại:</label>
+                        <input type="text" id="phone" name="phone" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Nội dung:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        
+                        <button type="submit">Gửi</button>
+                    </form>
+                    <div id="successMessage" style="display: none;">
+                        <p>Bạn đã gửi thành công!</p>
+                        <button id="closeSuccessMessage">Đóng</button>
+                    </div>
+                </div>
+            </div>
+            <!--* Modal end  --> 
+
+        <!--* Piano giải trí -->
+        <section class="piano">
+        <div class="wrapperPiano">
+            <div>
+              <h2>Playable PIANO</h2>
+              <div class="column volume-slider">
+                <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+              </div>
+              <div class="column keys-checkbox">
+                <span>Show Keys</span><input type="checkbox" checked>
+              </div>
+            </div>
+            <ul class="piano-keys">
+              <li class="key white" data-key="a"><span>a</span></li>
+              <li class="key black" data-key="w"><span>w</span></li>
+              <li class="key white" data-key="s"><span>s</span></li>
+              <li class="key black" data-key="e"><span>e</span></li>
+              <li class="key white" data-key="d"><span>d</span></li>
+              <li class="key white" data-key="f"><span>f</span></li>
+              <li class="key black" data-key="t"><span>t</span></li>
+              <li class="key white" data-key="g"><span>g</span></li>
+              <li class="key black" data-key="y"><span>y</span></li>
+              <li class="key white" data-key="h"><span>h</span></li>
+              <li class="key black" data-key="u"><span>u</span></li>
+              <li class="key white" data-key="j"><span>j</span></li>
+              <li class="key white" data-key="k"><span>k</span></li>
+              <li class="key black" data-key="o"><span>o</span></li>
+              <li class="key white" data-key="l"><span>l</span></li>
+              <li class="key black" data-key="p"><span>p</span></li>
+              <li class="key white" data-key=";"><span>;</span></li>
+            </ul>
+          </div>
+        </section>
+        <!--* Piano giải trí End-->
+
+                  <!--* Time -->
+        <section class="timeShop">
+
+          <div class="timeShopContainer">
+            <div class="time">
+              <div class="time-colon">
+                <div class="time-text">
+                  <span class="num hour_num">08</span>
+                  <span class="text">Hours</span>
+                </div>
+                <span class="colon">:</span>
+              </div>
+              <div class="time-colon">
+                <div class="time-text">
+                  <span class="num min_num">45</span>
+                  <span class="text">Minutes</span>
+                </div>
+                <span class="colon">:</span>
+              </div>
+              <div class="time-colon">
+                <div class="time-text">
+                  <span class="num sec_num">06</span>
+                  <span class="text">Seconds</span>
+                </div>
+                <span class="am_pm">AM</span>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!--* time End -->
+
+
+            <!--* Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col">
+                        <img src="img/Creative Color Brushstroke Lettering Logo (3).png" class="logo_footer">
+                        <p class="pFooter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deserunt reprehenderit nisi ipsum a exercitationem?</p>
+                    </div>
+                    <div class="col">
+                        <h3>Office 
+                            <div class="underliner"><span></span></div> 
+                        </h3>
+                        <p>Duong Van An Road</p>
+                        <p>Phong Thuy, Le Thuy</p>
+                        <p>Quang Binh, PIN 55000, VN</p>
+                        <p class="email_footer">tuananhkim555@gmail.com</p>
+                        <h4>+(84) - 766.353.315</h4>
+                    </div>
+                    <div class="col">
+                        <h3>Links
+                            <div class="underliner"><span></span></div> 
+                        </h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="contactFooter">Contact
+                            <div class="underliner"><span></span></div> 
+                        </h3>
+                        <form class="form_footer">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input class="input_footer" type="email" placeholder="Enter your email id " required>
+                            <button class="footerBtn" type="submit"><i class="fa-solid fa-right-to-bracket"></i></button>
+                        </form>
+                        <div class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">@Tuan Anh Developer</p>
+            </footer>
+            <!--* Footer End -->
+
+            <!--* Back To Top -->
+            <div id="progress">
+                <span id="progress-value">
+                    <i class="fa-solid fa-hand-point-up"></i>
+                </span>
+            </div>
+
+            <!--* Back To Top End -->
+
+
+            <!--* Zalo -->
+            <a href="https://chat.zalo.me/?phone=0766353315" id="linkzalo" target="_blank" rel="noopener noreferrer"><div id="fcta-zalo-tracking" class="fcta-zalo-mess">
+                <span id="fcta-zalo-tracking">Support</span></div><div class="fcta-zalo-vi-tri-nut"><div id="fcta-zalo-tracking" class="fcta-zalo-nen-nut"><div id="fcta-zalo-tracking" class="fcta-zalo-ben-trong-nut"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.1 436.6"><path fill="currentColor" class="st0" d="M82.6 380.9c-1.8-.8-3.1-1.7-1-3.5 1.3-1 2.7-1.9 4.1-2.8 13.1-8.5 25.4-17.8 33.5-31.5 6.8-11.4 5.7-18.1-2.8-26.5C69 269.2 48.2 212.5 58.6 145.5 64.5 107.7 81.8 75 107 46.6c15.2-17.2 33.3-31.1 53.1-42.7 1.2-.7 2.9-.9 3.1-2.7-.4-1-1.1-.7-1.7-.7-33.7 0-67.4-.7-101 .2C28.3 1.7.5 26.6.6 62.3c.2 104.3 0 208.6 0 313 0 32.4 24.7 59.5 57 60.7 27.3 1.1 54.6.2 82 .1 2 .1 4 .2 6 .2H290c36 0 72 .2 108 0 33.4 0 60.5-27 60.5-60.3v-.6-58.5c0-1.4.5-2.9-.4-4.4-1.8.1-2.5 1.6-3.5 2.6-19.4 19.5-42.3 35.2-67.4 46.3-61.5 27.1-124.1 29-187.6 7.2-5.5-2-11.5-2.2-17.2-.8-8.4 2.1-16.7 4.6-25 7.1-24.4 7.6-49.3 11-74.8 6zm72.5-168.5c1.7-2.2 2.6-3.5 3.6-4.8 13.1-16.6 26.2-33.2 39.3-49.9 3.8-4.8 7.6-9.7 10-15.5 2.8-6.6-.2-12.8-7-15.2-3-.9-6.2-1.3-9.4-1.1-17.8-.1-35.7-.1-53.5 0-2.5 0-5 .3-7.4.9-5.6 1.4-9 7.1-7.6 12.8 1 3.8 4 6.8 7.8 7.7 2.4.6 4.9.9 7.4.8 10.8.1 21.7 0 32.5.1 1.2 0 2.7-.8 3.6 1-.9 1.2-1.8 2.4-2.7 3.5-15.5 19.6-30.9 39.3-46.4 58.9-3.8 4.9-5.8 10.3-3 16.3s8.5 7.1 14.3 7.5c4.6.3 9.3.1 14 .1 16.2 0 32.3.1 48.5-.1 8.6-.1 13.2-5.3 12.3-13.3-.7-6.3-5-9.6-13-9.7-14.1-.1-28.2 0-43.3 0zm116-52.6c-12.5-10.9-26.3-11.6-39.8-3.6-16.4 9.6-22.4 25.3-20.4 43.5 1.9 17 9.3 30.9 27.1 36.6 11.1 3.6 21.4 2.3 30.5-5.1 2.4-1.9 3.1-1.5 4.8.6 3.3 4.2 9 5.8 14 3.9 5-1.5 8.3-6.1 8.3-11.3.1-20 .2-40 0-60-.1-8-7.6-13.1-15.4-11.5-4.3.9-6.7 3.8-9.1 6.9zm69.3 37.1c-.4 25 20.3 43.9 46.3 41.3 23.9-2.4 39.4-20.3 38.6-45.6-.8-25-19.4-42.1-44.9-41.3-23.9.7-40.8 19.9-40 45.6zm-8.8-19.9c0-15.7.1-31.3 0-47 0-8-5.1-13-12.7-12.9-7.4.1-12.3 5.1-12.4 12.8-.1 4.7 0 9.3 0 14v79.5c0 6.2 3.8 11.6 8.8 12.9 6.9 1.9 14-2.2 15.8-9.1.3-1.2.5-2.4.4-3.7.2-15.5.1-31 .1-46.5z"></path></svg></div><div id="fcta-zalo-tracking" class="fcta-zalo-text">Supleport</div></div></div></a>
+            <!--* Zalo End -->
+        <!--* Zalo JS-->
+        <script src="https://kit.fontawesome.com/383bc143c8.js"></script>
+        <script>
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+        {document.getElementById("linkzalo").href="https://zalo.me/0766353315";}
+        </script>
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Type Js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("PxOLbUxi7ZPBZnuVR"); // Replace with your EmailJS user ID
+    })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <!-- partial -->
+         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            //Ẩn Soucre code
+                document.addEventListener("keydown", function (event){
+                if (event.ctrlKey){
+                    event.preventDefault();
+                }
+                if(event.keyCode == 123){
+                    event.preventDefault();
+                }
+                });
+        </script>
+    <!-- JS -->
+    <script src="js/extend.js"></script>
+    <script type="module" src="js/module.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
